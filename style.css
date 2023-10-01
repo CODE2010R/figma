@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.all{
+    background-color: black;
+}
+.box{
+    width: 85%;
+    margin: auto;
+    padding-top: 60px;
+}
+.qator1, .qator2, .blackbox, .display, .box3, .box5{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.small, .three, .black{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.quti3, .qu2, .qu1{
+    background-color: silver;
+    width: 30%;
+    padding: 20px;
+}
+.blackbox{
+    color: white;
+}
+.picbox, .yozuv{
+    width: 47%;
+}
+.box5{
+    line-height: 3;
+}
+.box4{
+    color: white;
+    text-align: center;
+    background-image: url(imgbox/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn1{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+.long{
+    font-size: 40px;
+    width: 500px;
+    margin: 50px auto;
+}
+.tagline{
+    padding-top: 200px;
+}
+.box3{
+    background-color: white;
+    padding: 60px;
+}
+.h2{
+    font-size: 30px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+.picbox{
+    padding: 30px;
+}
+.pteg{
+    margin-bottom: 30px;
+}
+.ul{
+    line-height: 2;
+}
+.three{
+    background-color: silver;
+    padding: 40px;
+}
+.h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.black1{
+    margin-right: 20px;
+}
+.firstbox, .secondbox, .thirdbox{
+    width: 27%;
+    margin: auto;
+}
+.p{
+    margin-bottom: 30px;
+}
+.ptegi{
+    font-weight: bold;
+    width: 200px;
+}
+.box1{
+    background-color: white;
+}
+.btn1{
+    margin-right: 20px;
+}
+.quti1, .quti2{
+    width: 47%;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.picture{
+    background-color: black;
+}
+.div{
+    width: 40px ;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+.disp{
+    display: flex;
+}
+.link1{
+    padding-left: 10px;
+    text-decoration: none;
+}
+.box5{
+    background-color: black;
+    color: white;
+}
+.qator2{
+    padding: 50px;
+}
+@media(max-widh:1024px){
+    .bed, .shelf, .brand{
+        width: 100%;
+    }
+    .ptegi{
+        width: 400px;
+    }
+    .h1, .p{
+        text-align: center;
+    }
+    .yozuv{
+        display: flex;
+        align-items: center;
+    }
+}
+@media(max-width:744px){
+    .h1, .btn1, .p, .base, .pteg, .ul, .long{
+        width: 100%;
+    }
+    .pteg, .ul{
+        text-align: center;
+    }
+    .quti3{
+        overflow: hidden;
+    }
+}
+@media(max-width:374px){
+    .quticha5{
+        width: 100%;
+    }
+    .link1, .qu2{
+        overflow: hidden;
+    }
+    .ptegi{
+        text-align: center;
+    }
+}
